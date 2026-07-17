@@ -11,7 +11,7 @@
 
 Este perfil es mi cuaderno de trabajo público: aquí convierto lo aprendido en **infraestructuras y servicios que se pueden desplegar, comprobar y repetir**.
 
-Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetible y documentar tanto las decisiones como los problemas encontrados. Porque un sistema que solo funciona una vez todavía no está terminado.
+Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetible y documentar tanto las decisiones como los problemas encontrados. Un sistema que solo funciona una vez es un sistema incompleto.
 
 ## Proyectos destacados
 
