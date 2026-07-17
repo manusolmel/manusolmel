@@ -44,9 +44,8 @@
 
   <rect x="72" y="66" width="56" height="5" rx="2.5" fill="url(#accent)"/>
   <text x="72" y="157" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">Manu Soler</text>
-  <text x="76" y="207" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="400" letter-spacing="1.2">SISTEMAS  Â·  DEVOPS  Â·  INFRAESTRUCTURA</text>
+  <text x="76" y="207" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="400" letter-spacing="1.2">SISTEMAS  ·  DEVOPS  ·  INFRAESTRUCTURA</text>
   <text x="76" y="250" fill="url(#accent)" font-family="Consolas, SFMono-Regular, monospace" font-size="16">learning by building_</text>
 
   <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="23.25" stroke="#94A3B8" stroke-opacity="0.16" stroke-width="1.5"/>
 </svg>
-
