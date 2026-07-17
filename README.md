@@ -13,16 +13,6 @@ Este perfil es mi cuaderno de trabajo público: aquí convierto lo aprendido en 
 
 Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetible y documentar tanto las decisiones como los problemas encontrados. Porque un sistema que solo funciona una vez todavía no está terminado.
 
-## Con qué construyo
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,debian,docker,kubernetes,git,githubactions,python,ansible,bash,nginx,postgres,fastapi,vue,vite&amp;perline=7" alt="Linux, Debian, Docker, Kubernetes, Git, GitHub Actions, Python, Ansible, Bash, Nginx, PostgreSQL, FastAPI, Vue y Vite" />
-</div>
-
-<p align="center">
-  <sub>También forman parte del laboratorio: Helm · Kubespray · Tailscale · Longhorn</sub>
-</p>
-
 ## Proyectos destacados
 
 <table>
@@ -42,12 +32,8 @@ Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetib
   </tr>
 </table>
 
-## En el laboratorio
-
-- Afinando una infraestructura Kubernetes multinodo reproducible.
-- Mejorando automatización, despliegues y operación de servicios.
-- Preparando la capa de observabilidad con Prometheus y Grafana.
+<br>
 
 <div align="center">
-  <sub>Sistemas que se puedan entender, reproducir y mantener.</sub>
+  <img src="https://skillicons.dev/icons?i=linux,debian,docker,kubernetes,git,githubactions,python,ansible,bash,nginx,postgres,fastapi,vue,vite&amp;perline=14" height="42" alt="Linux, Debian, Docker, Kubernetes, Git, GitHub Actions, Python, Ansible, Bash, Nginx, PostgreSQL, FastAPI, Vue y Vite" />
 </div>
