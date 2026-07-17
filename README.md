@@ -17,25 +17,23 @@ Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetib
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Infraestructura multinodo</h3>
-      <p>Laboratorio de hosting sobre Kubernetes: alta disponibilidad, red privada, almacenamiento persistente y despliegue automatizado.</p>
-      <p><code>Kubernetes</code> <code>Ansible</code> <code>Kubespray</code> <code>Tailscale</code> <code>Longhorn</code></p>
-      <a href="https://github.com/manusolmel/pim_infra_multinodo"><strong>Explorar el repositorio →</strong></a>
+    <td width="33%" valign="top">
+      <h4>Infraestructura multinodo</h4>
+      <p>Kubernetes multinodo con alta disponibilidad, red privada, almacenamiento persistente y automatización.</p>
+      <p><code>Kubernetes</code> <code>Ansible</code> <code>Longhorn</code></p>
+      <a href="https://github.com/manusolmel/pim_infra_multinodo"><strong>Repositorio →</strong></a>
     </td>
-    <td width="50%" valign="top">
-      <h3>ServicePulse</h3>
-      <p>Portal self-hosted de operaciones para catalogar servicios, monitorizar su estado, gestionar incidencias y preparar despliegues controlados. Actualmente en fase de diseño y especificación.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code> <code>GitHub Actions</code></p>
-      <a href="https://github.com/manusolmel/servicepulse"><strong>Explorar el repositorio →</strong></a>
+    <td width="33%" valign="top">
+      <h4>ServicePulse</h4>
+      <p>Portal self-hosted para monitorización, incidencias y despliegues controlados. En fase de diseño.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>Docker</code></p>
+      <a href="https://github.com/manusolmel/servicepulse"><strong>Repositorio →</strong></a>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>FastAPI + Vue</h3>
-      <p>Aplicación multicontenedor con frontend, API, base de datos y proxy inverso, preparada para Docker Compose y Kubernetes.</p>
-      <p><code>FastAPI</code> <code>Vue</code> <code>PostgreSQL</code> <code>Nginx</code> <code>Docker</code></p>
-      <a href="https://github.com/manusolmel/docker-fastapi-vue"><strong>Explorar el repositorio →</strong></a>
+    <td width="33%" valign="top">
+      <h4>FastAPI + Vue</h4>
+      <p>Aplicación multicontenedor con frontend Vue, API FastAPI, PostgreSQL y Nginx.</p>
+      <p><code>FastAPI</code> <code>Vue</code> <code>Docker</code></p>
+      <a href="https://github.com/manusolmel/docker-fastapi-vue"><strong>Repositorio →</strong></a>
     </td>
   </tr>
 </table>
