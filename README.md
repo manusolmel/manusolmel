@@ -1,21 +1,26 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Manu Soler — Sistemas, DevOps e infraestructura" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Manu Soler — Sistemas, infraestructura y automatización" />
 </div>
 
 <br>
 
-Construyo laboratorios reproducibles para aprender cómo funcionan los sistemas de verdad: desde la red y el almacenamiento hasta el despliegue de una aplicación.
+<p align="center">
+  <strong>Técnico de Sistemas · ASIR</strong><br>
+  Linux, virtualización, contenedores y automatización llevados a proyectos reales.
+</p>
 
-Ahora mismo mi foco está en **Linux**, **Kubernetes** y en todo lo que ocurre entre el primer commit y un servicio funcionando.
+Este perfil es mi cuaderno de trabajo público: aquí convierto lo aprendido en **infraestructuras y servicios que se pueden desplegar, comprobar y repetir**.
 
-## Stack
+Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetible y documentar tanto las decisiones como los problemas encontrados. Porque un sistema que solo funciona una vez todavía no está terminado.
+
+## Con qué construyo
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,debian,docker,kubernetes,ansible,git,githubactions,nginx,postgres,python,fastapi,vue,vite&amp;perline=13" alt="Linux, Debian, Docker, Kubernetes, Ansible, Git, GitHub Actions, Nginx, PostgreSQL, Python, FastAPI, Vue y Vite" />
+  <img src="https://skillicons.dev/icons?i=linux,debian,docker,kubernetes,git,githubactions,python,ansible,bash,nginx,postgres,fastapi,vue,vite&amp;perline=7" alt="Linux, Debian, Docker, Kubernetes, Git, GitHub Actions, Python, Ansible, Bash, Nginx, PostgreSQL, FastAPI, Vue y Vite" />
 </div>
 
 <p align="center">
-  También trabajo con <strong>Helm</strong>, <strong>Kubespray</strong>, <strong>Tailscale</strong> y <strong>Longhorn</strong>.
+  <sub>También forman parte del laboratorio: Helm · Kubespray · Tailscale · Longhorn</sub>
 </p>
 
 ## Proyectos destacados
@@ -24,27 +29,25 @@ Ahora mismo mi foco está en **Linux**, **Kubernetes** y en todo lo que ocurre e
   <tr>
     <td width="50%" valign="top">
       <h3>Infraestructura multinodo</h3>
-      <p>Plataforma de hosting sobre Kubernetes con alta disponibilidad, red privada y almacenamiento persistente.</p>
+      <p>Laboratorio de hosting sobre Kubernetes: alta disponibilidad, red privada, almacenamiento persistente y despliegue automatizado.</p>
       <p><code>Kubernetes</code> <code>Ansible</code> <code>Kubespray</code> <code>Tailscale</code> <code>Longhorn</code></p>
-      <a href="https://github.com/manusolmel/pim_infra_multinodo"><strong>Ver el proyecto →</strong></a>
+      <a href="https://github.com/manusolmel/pim_infra_multinodo"><strong>Explorar el repositorio →</strong></a>
     </td>
     <td width="50%" valign="top">
       <h3>FastAPI + Vue</h3>
-      <p>Aplicación multicontenedor con frontend, API, base de datos y proxy inverso, preparada para Docker y Kubernetes.</p>
+      <p>Aplicación multicontenedor con frontend, API, base de datos y proxy inverso, preparada para Docker Compose y Kubernetes.</p>
       <p><code>FastAPI</code> <code>Vue</code> <code>PostgreSQL</code> <code>Nginx</code> <code>Docker</code></p>
-      <a href="https://github.com/manusolmel/docker-fastapi-vue"><strong>Ver el proyecto →</strong></a>
+      <a href="https://github.com/manusolmel/docker-fastapi-vue"><strong>Explorar el repositorio →</strong></a>
     </td>
   </tr>
 </table>
 
-## Ahora mismo
+## En el laboratorio
 
-```text
-→ Documentando una infraestructura Kubernetes multinodo reproducible
-→ Mejorando automatización, despliegues y operación de servicios
-→ Próxima parada: observabilidad con Prometheus y Grafana
-```
+- Afinando una infraestructura Kubernetes multinodo reproducible.
+- Mejorando automatización, despliegues y operación de servicios.
+- Preparando la capa de observabilidad con Prometheus y Grafana.
 
 <div align="center">
-  <sub>Menos magia; más sistemas que se puedan entender, reproducir y mantener.</sub>
+  <sub>Sistemas que se puedan entender, reproducir y mantener.</sub>
 </div>

@@ -1,51 +1,101 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Manu Soler</title>
-  <desc id="desc">Sistemas, DevOps e infraestructura</desc>
+  <desc id="desc">Sistemas, infraestructura y automatización</desc>
 
   <defs>
-    <linearGradient id="background" x1="40" y1="24" x2="1160" y2="296" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1220"/>
-      <stop offset="0.55" stop-color="#101A31"/>
-      <stop offset="1" stop-color="#17112B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1584" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07161B"/>
+      <stop offset="0.48" stop-color="#0B2027"/>
+      <stop offset="1" stop-color="#101A2E"/>
     </linearGradient>
-    <linearGradient id="accent" x1="220" y1="74" x2="870" y2="240" gradientUnits="userSpaceOnUse">
+    <linearGradient id="brand" x1="480" y1="88" x2="1210" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2DD4BF"/>
-      <stop offset="0.48" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
     </linearGradient>
-    <linearGradient id="orbit" x1="870" y1="62" x2="1140" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD4BF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.15"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.07"/>
+    <radialGradient id="photoSafe" cx="0" cy="0" r="1" gradientTransform="translate(184 408) rotate(-67) scale(360 430)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F3941" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#07161B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#A7F3D0" stroke-opacity="0.045"/>
     </pattern>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="10"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#grid)"/>
+  <rect width="460" height="396" fill="url(#photoSafe)"/>
 
-  <circle cx="1010" cy="157" r="122" stroke="url(#orbit)" stroke-width="1.5"/>
-  <circle cx="1010" cy="157" r="80" stroke="#60A5FA" stroke-opacity="0.23"/>
-  <path d="M882 157H1138M1010 29V285" stroke="#94A3B8" stroke-opacity="0.09"/>
-  <circle cx="1090" cy="157" r="8" fill="#A78BFA"/>
-  <circle cx="1090" cy="157" r="18" fill="#A78BFA" fill-opacity="0.22" filter="url(#glow)"/>
-  <circle cx="949" cy="80" r="6" fill="#2DD4BF"/>
-  <circle cx="949" cy="80" r="16" fill="#2DD4BF" fill-opacity="0.24" filter="url(#glow)"/>
-  <path d="M930 204L971 228L1012 204L1053 228L1094 204" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
-  <circle cx="930" cy="204" r="4" fill="#2DD4BF"/>
-  <circle cx="971" cy="228" r="4" fill="#5EA7FA"/>
-  <circle cx="1012" cy="204" r="4" fill="#7C9CFB"/>
-  <circle cx="1053" cy="228" r="4" fill="#918FFB"/>
-  <circle cx="1094" cy="204" r="4" fill="#A78BFA"/>
+  <!-- Left-side safe area for LinkedIn's profile photograph -->
+  <path d="M0 62H268L302 96H424" stroke="#2DD4BF" stroke-opacity="0.18"/>
+  <path d="M0 340H230L270 300H390" stroke="#38BDF8" stroke-opacity="0.12"/>
+  <rect x="70" y="62" width="128" height="4" rx="2" fill="#2DD4BF" fill-opacity="0.24"/>
 
-  <rect x="72" y="66" width="56" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="72" y="157" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">Manu Soler</text>
-  <text x="76" y="207" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="400" letter-spacing="1.2">SISTEMAS  ·  DEVOPS  ·  INFRAESTRUCTURA</text>
-  <text x="76" y="250" fill="url(#accent)" font-family="Consolas, SFMono-Regular, monospace" font-size="16">learning by building_</text>
+  <!-- Identity -->
+  <rect x="462" y="74" width="5" height="246" rx="2.5" fill="url(#brand)"/>
+  <text x="505" y="145" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5">Manu Soler</text>
+  <text x="508" y="190" fill="#D5E5E8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0.5">Sistemas &#183; Infraestructura &#183; Automatización</text>
+  <text x="508" y="228" fill="#85A9B1" font-family="Consolas, SFMono-Regular, monospace" font-size="17">Linux  /  Virtualización  /  Contenedores  /  CI/CD</text>
 
-  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="23.25" stroke="#94A3B8" stroke-opacity="0.16" stroke-width="1.5"/>
+  <!-- Technology tiles -->
+  <g filter="url(#shadow)">
+    <g transform="translate(505 261)">
+      <rect width="162" height="64" rx="15" fill="#102B34" stroke="#2496ED" stroke-opacity="0.48"/>
+      <circle cx="34" cy="32" r="20" fill="#2496ED"/>
+      <g transform="translate(20 20)" fill="#FFFFFF">
+        <rect x="2" y="4" width="6" height="5" rx="1"/><rect x="9" y="4" width="6" height="5" rx="1"/><rect x="16" y="4" width="6" height="5" rx="1"/>
+        <rect x="9" y="-2" width="6" height="5" rx="1"/><path d="M1 11H24C23 17 19 21 12 21C6 21 2 18 1 11Z"/>
+      </g>
+      <text x="65" y="39" fill="#E6F4FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Docker</text>
+    </g>
+
+    <g transform="translate(683 261)">
+      <rect width="186" height="64" rx="15" fill="#102B34" stroke="#326CE5" stroke-opacity="0.55"/>
+      <circle cx="34" cy="32" r="20" fill="#326CE5"/>
+      <g transform="translate(20 18)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round">
+        <circle cx="14" cy="14" r="5"/><path d="M14 1V7M14 21V27M1 14H7M21 14H27M5 5L9 9M19 19L23 23M23 5L19 9M9 19L5 23"/>
+      </g>
+      <text x="65" y="39" fill="#EAF1FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Kubernetes</text>
+    </g>
+
+    <g transform="translate(885 261)">
+      <rect width="132" height="64" rx="15" fill="#102B34" stroke="#F05032" stroke-opacity="0.55"/>
+      <circle cx="34" cy="32" r="20" fill="#F05032"/>
+      <g transform="translate(23 21)" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 2V16C3 19 5 21 8 21H17"/><path d="M3 8H13C16 8 18 10 18 13V19"/>
+        <circle cx="3" cy="2" r="2.2" fill="#FFFFFF"/><circle cx="18" cy="21" r="2.2" fill="#FFFFFF"/><circle cx="18" cy="13" r="2.2" fill="#FFFFFF"/>
+      </g>
+      <text x="65" y="39" fill="#FFF0EC" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Git</text>
+    </g>
+
+    <g transform="translate(1033 261)">
+      <rect width="152" height="64" rx="15" fill="#102B34" stroke="#FFD43B" stroke-opacity="0.48"/>
+      <circle cx="34" cy="32" r="20" fill="#306998"/>
+      <path d="M25 20C25 16 28 14 34 14C40 14 43 16 43 20V28H31C27 28 25 30 25 34V20Z" fill="#FFD43B"/>
+      <path d="M43 44C43 48 40 50 34 50C28 50 25 48 25 44V36H37C41 36 43 34 43 30V44Z" fill="#FFFFFF" transform="translate(0 -4)"/>
+      <circle cx="30" cy="20" r="1.5" fill="#306998"/>
+      <circle cx="38" cy="40" r="1.5" fill="#FFD43B"/>
+      <text x="65" y="39" fill="#FFF8D8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Python</text>
+    </g>
+  </g>
+
+  <!-- Infrastructure diagram -->
+  <g opacity="0.55">
+    <path d="M1265 92H1392V154H1505M1328 154V247H1452M1392 154V310H1518" stroke="url(#brand)" stroke-opacity="0.45" stroke-width="1.5"/>
+    <rect x="1249" y="76" width="32" height="32" rx="8" fill="#102F39" stroke="#2DD4BF"/>
+    <rect x="1376" y="138" width="32" height="32" rx="8" fill="#102F39" stroke="#38BDF8"/>
+    <rect x="1436" y="231" width="32" height="32" rx="8" fill="#152840" stroke="#818CF8"/>
+    <rect x="1489" y="138" width="32" height="32" rx="8" fill="#152840" stroke="#60A5FA"/>
+    <rect x="1502" y="294" width="32" height="32" rx="8" fill="#152840" stroke="#818CF8"/>
+    <circle cx="1265" cy="92" r="5" fill="#2DD4BF"/><circle cx="1392" cy="154" r="5" fill="#38BDF8"/><circle cx="1452" cy="247" r="5" fill="#818CF8"/>
+  </g>
+  <circle cx="1392" cy="154" r="22" fill="#38BDF8" fill-opacity="0.12" filter="url(#glow)"/>
+
+  <rect x="0.75" y="0.75" width="1582.5" height="394.5" stroke="#A7F3D0" stroke-opacity="0.1" stroke-width="1.5"/>
 </svg>
