@@ -24,6 +24,14 @@ Me interesa entender qué ocurre debajo de cada servicio, automatizar lo repetib
       <a href="https://github.com/manusolmel/pim_infra_multinodo"><strong>Explorar el repositorio →</strong></a>
     </td>
     <td width="50%" valign="top">
+      <h3>ServicePulse</h3>
+      <p>Portal self-hosted de operaciones para catalogar servicios, monitorizar su estado, gestionar incidencias y preparar despliegues controlados. Actualmente en fase de diseño y especificación.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code> <code>GitHub Actions</code></p>
+      <a href="https://github.com/manusolmel/servicepulse"><strong>Explorar el repositorio →</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h3>FastAPI + Vue</h3>
       <p>Aplicación multicontenedor con frontend, API, base de datos y proxy inverso, preparada para Docker Compose y Kubernetes.</p>
       <p><code>FastAPI</code> <code>Vue</code> <code>PostgreSQL</code> <code>Nginx</code> <code>Docker</code></p>
